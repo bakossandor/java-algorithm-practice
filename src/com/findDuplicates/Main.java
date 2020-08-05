@@ -16,8 +16,7 @@ public class Main {
             }
         }
         Integer[] returnArr = new Integer[returnSet.size()];
-        returnArr = returnSet.toArray(returnArr);
-        return returnArr;
+        return returnSet.toArray(returnArr);
     }
 
     public static void main(String[] args) {
